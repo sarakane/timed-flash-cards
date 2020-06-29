@@ -1,0 +1,18 @@
+Specifications for flash-card projectcard
+
+* create a flash card object
+* Have the user's inputted name be a value in the object
+* Have a score value on the object that is set to zero by default
+* Have individual JS questions be their own value in the object
+* Create prototype to display individual questions of our flash card object 
+* Have these questions display for only a set time limit
+* If time limit is reached then move to the next timed question
+* Have these question values be interactive so that a user can respond with an answer
+* If the user answers the question correctly within the time limit then give feedback to user that they are correct before moving on to the next question
+* If the user answers the question correctly then add a point to his score
+* If the user answers the question incorrectly then give feedback to the user that they were wrong before moving on to the next question
+* If the user answers a question incorrectly then the question will come up again at some point within the game to give the user another chance to answer
+* If the user answers the question incorrectly again, it will continue to pop up until either the user answers it correctly or the game timer runs out
+* The whole game itself will be within a predetermined time limit
+* If the user answers all questions correctly within the game's time limit then they win
+* If the user does not answer all questions correctly within the game's time limit then they lose

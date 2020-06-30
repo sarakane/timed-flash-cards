@@ -3,8 +3,8 @@ export class FlashCard {
     this.questions = [
         {
         question: "What variable type is identified with square brackets?",
-        answer: "an array",
-        fakeAnswers: ["an object", "a string", "a booleon"]
+        answer: "a array",
+        fakeAnswers: ["a object", "a string", "a booleon"]
       },
       {
         question: "How many values can an object contain?",

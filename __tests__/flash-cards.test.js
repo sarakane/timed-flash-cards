@@ -10,8 +10,8 @@ describe('FlashCard', () => {
   test('Should create a new FlashCard object', () => {
     expect(reusableFlashCard.questions).toEqual([{
       question: "What variable type is identified with square brackets?",
-      answer: "an array",
-      fakeAnswers: ["an object", "a string", "a booleon"]
+      answer: "a array",
+      fakeAnswers: ["a object", "a string", "a booleon"]
       },
       {
         question: "How many values can an object contain?",
@@ -41,6 +41,14 @@ describe('FlashCard', () => {
       question: "When was Javascript invented in it's very first itteration?",
       answers: ["1975", "1985", "1990", "1995"],
       correctAnswer: "1995"
+    });
+  });
+
+  test('Should alphabetize answers', () => {
+    expect(reusableFlashCard.getCard(0)).toMatchObject({   
+      question: "What variable type is identified with square brackets?",
+      answers: ["a array", "a booleon", "a object", "a string"],
+      correctAnswer: "a array"
     });
   });
 });

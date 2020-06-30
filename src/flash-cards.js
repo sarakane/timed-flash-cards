@@ -1,7 +1,6 @@
 export class FlashCard {
   constructor() {
-    this.questions = [
-        {
+    this.questions = [{
         question: "What variable type is identified with square brackets?",
         answer: "a array",
         fakeAnswers: ["a object", "a string", "a booleon"]
@@ -12,7 +11,7 @@ export class FlashCard {
         fakeAnswers: ["100", "25,000", "1,000,000"]
       },
       {
-        question: "How many values can an object contain?",
+        question: "How many values can an array contain?",
         answer: "4,294,967,295",
         fakeAnswers: ["100", "25,000", "1,000,000"]
       },

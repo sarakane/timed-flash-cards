@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="bundle.js"></script>
-    <title>Project Name</title>
+    <title>Timed Flash Cards</title>
   </head>
   <body>
+    <div class="container">
+      <form id="nameForm">
+        <label for="name">Enter your name</label>
+        <input type="text" id="name">
+        <button type="submit">Enter</button>
+      </form>
+      <dl id="flash-card-list">
+        <dd id="question"></dd>
+        <dt id="answer1"></dt>
+        <dt id="answer2"></dt>
+        <dt id="answer3"></dt>
+        <dt id="answer4"></dt>
+      </dl>
 
+      <!-- 
+        imagine this is in main.js somewhere
+        $("dl#flash-card-list").text("<dd> + this.question </dd>")
+        $("dl#flash-card-list").text("<dt> + this.answers </dt>")
+
+      -->
+      <div id="hidden-current-score">
+        <p>Your current score is: <span id="current-score"></span></p>
+      </div>
+      <div id="hidden-win">
+        <h2>YOU WIN!</h2>
+      </div>
+      <div id="hidden-lose">
+        <h2>YOU LOSE!</h2>
+      </div>
+    </div>
   </body>
 </html>

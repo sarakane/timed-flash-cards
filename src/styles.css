@@ -1,0 +1,16 @@
+#hidden-current-score {
+  display: none;
+}
+
+#hidden-win {
+  display: none;
+}
+
+#hidden-lose {
+  display: none;
+}
+
+dt:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

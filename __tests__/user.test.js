@@ -25,7 +25,7 @@ describe ('FlashCard', () => {
   });
 
   test('Should return true if user is a winner', () => {
-    reusableUser.score = 6;
+    reusableUser.score = 5;
     reusableUser.gameTimer();
     jest.advanceTimersByTime(300001);
     expect(reusableUser.isAWinner).toBe(true);

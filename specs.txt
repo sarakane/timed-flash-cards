@@ -1,10 +1,11 @@
 Specifications for flash-card projectcard
 
-* create a flash card object
-* Have the user's inputted name be a value in the object
+* create a user object
+* Have the user's inputted name be a value in the user object
 * Have a score value on the object that is set to zero by default
-* Have individual JS questions be their own value in the object
-* Create prototype to display individual questions of our flash card object 
+* Create a flash card object
+* Have each key value of the flash card object with an array of objects containing questions and answers
+* Create prototype to display individual questions from flash card object 
 * Have these questions display for only a set time limit
 * If time limit is reached then move to the next timed question
 * Have these question values be interactive so that a user can respond with an answer

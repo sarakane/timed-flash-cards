@@ -6,15 +6,18 @@ export class User {
     this.score = 0;
     this.isAWinner;
     this.cards = new FlashCard();
+    this.questionsIndex = 0;
   }
 
   gameTimer(){
     setTimeout(() => {
-      if(this.score === 6){
+      if(this.score === 5){
         this.isAWinner = true;
       } else {
         this.isAWinner = false;
       }
-    }, 300000)
+    }, 5000);
   }
+
+
 }
